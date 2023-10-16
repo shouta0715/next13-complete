@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { demos } from "@/libs/demos";
-import "@/style/tailwind.css";
 
 export default function Page() {
   return (

@@ -88,12 +88,12 @@ export const demos: { name: string; items: Item[] }[] = [
     items: [
       {
         name: "Basic Metadata",
-        slug: "metadata",
+        slug: "metadata/basic",
         description: "Update the document title, description, and more",
       },
       {
         name: "Dynamic Metadata",
-        slug: "dynamic-metadata",
+        slug: "metadata/dynamic",
         description: "Update metadata based on data fetching",
       },
     ],

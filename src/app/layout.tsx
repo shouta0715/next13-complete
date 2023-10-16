@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AddressBar } from "@/components/address-bar";
 import Byline from "@/components/byline";
 import { GlobalNav } from "@/components/global-nav";
+import "@/style/tailwind.css";
 
 export const metadata: Metadata = {
   title: {
@@ -10,15 +11,6 @@ export const metadata: Metadata = {
   },
   description:
     "A playground to explore new Next.js App Router features such as nested layouts, instant loading states, streaming, and component level data fetching.",
-  openGraph: {
-    title: "Next.js App Router Playground",
-    description:
-      "A playground to explore new Next.js App Router features such as nested layouts, instant loading states, streaming, and component level data fetching.",
-    images: [`/api/og?title=Next.js App Router`],
-  },
-  twitter: {
-    card: "summary_large_image",
-  },
 };
 
 export default function RootLayout({
