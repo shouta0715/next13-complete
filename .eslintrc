@@ -16,9 +16,11 @@
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript",
+    "plugin:@next/next/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:tailwindcss/recommended",
-    "prettier"
+    "prettier",
+    "next"
   ],
   "plugins": ["import", "jsx-a11y", "react", "unused-imports"],
   "rules": {
