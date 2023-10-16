@@ -84,21 +84,6 @@ export const demos: { name: string; items: Item[] }[] = [
     ],
   },
   {
-    name: "Metadata",
-    items: [
-      {
-        name: "Basic Metadata",
-        slug: "metadata/basic",
-        description: "Update the document title, description, and more",
-      },
-      {
-        name: "Dynamic Metadata",
-        slug: "metadata/dynamic",
-        description: "Update metadata based on data fetching",
-      },
-    ],
-  },
-  {
     name: "Misc",
     items: [
       {
