@@ -88,6 +88,7 @@
           "caseInsensitive": true
         }
       }
-    ]
+    ],
+    "react/require-default-props": "off"
   }
 }
