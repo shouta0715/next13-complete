@@ -23,6 +23,11 @@ export const demos: { name: string; items: Item[] }[] = [
         slug: "parallel-routes",
         description: "Render multiple pages in the same layout",
       },
+      {
+        name: "Intercepting Routes",
+        slug: "intercepting-routes",
+        description: "Intercept routes to redirect or render a different page",
+      },
     ],
   },
   {
