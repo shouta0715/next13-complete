@@ -3,7 +3,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import React from "react";
-import { products } from "@/app/intercepting-routes/products";
+import { products } from "@/app/(routing)/intercepting-routes/products";
 import { BuyProduct } from "@/components/buy-profuct";
 
 export default function Page({

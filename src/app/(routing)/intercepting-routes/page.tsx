@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { products } from "@/app/intercepting-routes/products";
+import { products } from "@/app/(routing)/intercepting-routes/products";
 
 export default function Page() {
   return (

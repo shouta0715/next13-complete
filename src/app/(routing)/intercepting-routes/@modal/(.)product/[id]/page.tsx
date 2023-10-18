@@ -7,7 +7,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import { notFound, useRouter } from "next/navigation";
 import React, { Fragment, useState } from "react";
-import { products } from "@/app/intercepting-routes/products";
+import { products } from "@/app/(routing)/intercepting-routes/products";
 
 export default function Page({
   params,

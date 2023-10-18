@@ -3,7 +3,7 @@
 import { RadioGroup } from "@headlessui/react";
 import clsx from "clsx";
 import React, { useState } from "react";
-import { Product } from "@/app/intercepting-routes/products";
+import { Product } from "@/app/(routing)/intercepting-routes/products";
 
 export function BuyProduct({ product }: { product: Product }) {
   const [selectedColor, setSelectedColor] = useState(product.colors[0]);
